@@ -1,0 +1,161 @@
+body {
+    color: rgb(212, 212, 212);
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    background: linear-gradient(to bottom, rgb(0, 0, 0) 350px, rgb(125, 125, 125) 600px);
+    
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+nav {
+    background-color: rgb(30, 30, 30);   
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+    margin: 0;
+}
+
+header h2{
+    margin-left: 15px;
+    margin-bottom: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header p{
+    margin-left: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(160, 160, 160);
+}
+header button{
+    background-color: darkred;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-top: 4px;
+    padding: 4px 8px 4px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main h1{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-around;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+main li{
+    margin-bottom: 40px;
+}
+main img{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 20px;
+}
+main h3{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+main h2{
+    color: rgb(51, 51, 51);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: black;
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 90px 1fr; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form label {
+    margin-top: 25px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+form input {
+    width: 95%;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 2px solid red;
+}
+
+form button {
+    background-color: darkred;
+    border: none;
+    margin-top: 20px;
+    width: 100%; 
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    color: white; 
+    font-size: 16px;
+}
+footer {
+    background-color: white;
+    margin-bottom: -10px;
+}
+.footercontainer{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding-top: 2px;
+}
+.contato h3{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contato > p{
+    color: black;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footerbottom p{
+    padding: 16px;
+    display: flex;
+    font-size: 10px;
+    justify-content: center;
+    background-color: darkred;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
