@@ -158,4 +158,27 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+footer {
+    align-items: center;
+}
+
+.contato {
+    margin-bottom: 20px; /* Para dar espaço entre a seção de contato e o footerbottom */
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    padding-left: 37%;
+}
+
+.footerbottom {
+    width: 100%; /* Ocupar toda a largura da tela */
+    text-align: center; /* Centralizar o texto dentro do footerbottom */
+    padding: 10px 0;
+}
+
+.footerbottomcontainer {
+    display: flex;
+    justify-content: center;
+}
 
