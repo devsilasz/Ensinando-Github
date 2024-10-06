@@ -125,11 +125,17 @@ form button {
     border: none;
     margin-top: 20px;
     width: 100%; 
+    max-width: 300px;
     height: 40px;
     text-align: center;
     border-radius: 10px;
     color: white; 
     font-size: 16px;
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block;
+    grid-column: span 2; 
+    justify-self: center; 
 }
 footer {
     background-color: white;
@@ -166,7 +172,7 @@ footer {
 }
 
 .contato {
-    margin-bottom: 20px; /* Para dar espaço entre a seção de contato e o footerbottom */
+    margin-bottom: 20px; 
     padding: 20px;
     width: 100%;
     margin: 0 auto;
@@ -175,8 +181,8 @@ footer {
 }
 
 .footerbottom {
-    width: 100%; /* Ocupar toda a largura da tela */
-    text-align: center; /* Centralizar o texto dentro do footerbottom */
+    width: 100%;
+    text-align: center;
     padding: 10px 0;
 }
 
