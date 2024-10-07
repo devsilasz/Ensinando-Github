@@ -85,7 +85,7 @@ main p{
     display: flex;
     justify-content: center;
 }
-main h2{
+section h2{
     color: rgb(51, 51, 51);
     display: flex;
     justify-content: center;
@@ -137,40 +137,6 @@ form button {
     grid-column: span 2; 
     justify-self: center; 
 }
-footer {
-    background-color: white;
-    margin-bottom: -10px;
-}
-.footercontainer{
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    padding-top: 2px;
-}
-.contato h3{
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.contato > p{
-    color: black;
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.footerbottom p{
-    padding: 16px;
-    display: flex;
-    font-size: 10px;
-    justify-content: center;
-    background-color: darkred;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-footer {
-    align-items: center;
-}
-
 .contato {
     margin-bottom: 20px; 
     padding: 20px;
@@ -179,15 +145,25 @@ footer {
     background-color: white;
     padding-left: 37%;
 }
-
-.footerbottom {
-    width: 100%;
-    text-align: center;
-    padding: 10px 0;
+.contato h3{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contato p{
+    color: black;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.footerbottomcontainer {
+footer {
+    background-color: darkred;
+}
+footer p{
+    padding: 10px;
     display: flex;
+    font-size: 10px;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 
